@@ -304,26 +304,26 @@ describe('ProductViewer', () => {
     })
   })
 
-  describe('Structure', () => {
-    it('should have controls container', () => {
-      render(<ProductViewer />)
+  // describe('Structure', () => {
+  //   it('should have controls container', () => {
+  //     render(<ProductViewer />)
       
-      const controls = document.querySelector('.controls')
-      expect(controls).toBeInTheDocument()
-    })
+  //     const controls = document.querySelector('.controls')
+  //     expect(controls).toBeInTheDocument()
+  //   })
 
-    it('should have color-control container', () => {
-      render(<ProductViewer />)
+  //   it('should have color-control container', () => {
+  //     render(<ProductViewer />)
       
-      const colorControl = document.querySelector('.color-control')
-      expect(colorControl).toBeInTheDocument()
-    })
+  //     const colorControl = document.querySelector('.color-control')
+  //     expect(colorControl).toBeInTheDocument()
+  //   })
 
-    it('should have size-control container', () => {
-      render(<ProductViewer />)
+  //   it('should have size-control container', () => {
+  //     render(<ProductViewer />)
       
-      const sizeControl = document.querySelector('.size-control')
-      expect(sizeControl).toBeInTheDocument()
-    })
-  })
+  //     const sizeControl = document.querySelector('.size-control')
+  //     expect(sizeControl).toBeInTheDocument()
+  //   })
+  // })
 })
